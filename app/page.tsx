@@ -19,7 +19,7 @@ export default function Page() {
           className="flex flex-col justify-center gap-6 rounded-lg bg-gray-50 
           px-6 py-10 md:w-2/5 md:px-20"
         >
-          <h1 className="text-blue-500">Teste blue title</h1>
+          <h1 className="text-red-500">Teste red title</h1>
           <p className={`text-xl text-gray-800 md:text-3xl md:leading-normal`}>
             <strong>Welcome to Acme.</strong> This is the example for the{' '}
             <a href="https://nextjs.org/learn/" className="text-blue-500">
