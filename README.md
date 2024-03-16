@@ -13,3 +13,5 @@ Commit 4
 Test 1
 
 Test message direct in commit
+
+Test commit 2
