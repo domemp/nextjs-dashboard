@@ -1,4 +1,5 @@
 import '@/app/ui/global.css';
+import { nunito } from '@/app/ui/fonts';
 
 export default function RootLayout({
   children,
@@ -7,7 +8,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <title>Stark - Stark</title>
+      <body className={`${nunito.className} antialiased`} >{children}</body>
     </html>
   );
 }
