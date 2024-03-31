@@ -9,7 +9,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <title>Stark - Stark</title>
-      <body className={`${nunito.className} antialiased`} >{children}</body>
+      <body className={`${nunito.className} antialiased`}>{children}</body>
     </html>
   );
 }
